@@ -1,4 +1,4 @@
-
+package stringclass;
 public class StringBuilderMethods {
 
 	public static void main(String[] args) {
