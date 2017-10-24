@@ -1,14 +1,16 @@
 package arrayclass;
 
+import javax.print.DocFlavor.INPUT_STREAM;
+
 public class ArrayClass {
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		int[] arrayint = new int[3]; // size must be specified, empty array
 		
 		int[] arrayint2 = new int[]{12,32,45}; // specify elements to start with
 		
 		int[] arrayint3 = {56, 87, 65};  // Anonymous Array: shortcut
 		
-		int[]numAnimals = {1,2,3};                        // before the name, no space
+		int[]numAnimals = {1,2,3};               // before the name, no space
 		int []numAnimals2;                      // before the name, space
 		int numAnimals3[];                       // after the name, no space
 		int numAnimals4 [];                      // after the name, space
@@ -19,5 +21,6 @@ public class ArrayClass {
 		int ar3[], ar4;   // delcaring an array ar3 and a int ar4
 		
 		
+		int[] numbers1 = new int[3]; // always have to provide dimension
 	}
 }

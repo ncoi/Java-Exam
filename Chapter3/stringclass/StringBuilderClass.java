@@ -25,7 +25,7 @@ public class StringBuilderClass {
 //		System.out.println(b);
 		
 		// size and capacity / SIZE DOESNT EXIST, LENGTH DOES
-		StringBuilder sb1 = new StringBuilder();
+		StringBuilder sb1 = new StringBuilder();   // default capacity 16
 		StringBuilder sb2 = new StringBuilder("builder");
 		StringBuilder sb3 = new StringBuilder(10);
 		System.out.println("sb1: " + sb1.length() + ", " + sb1.capacity());
