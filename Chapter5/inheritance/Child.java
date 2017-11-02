@@ -6,4 +6,8 @@ public class Child extends Parent{
 		super(num);
 		this.num = num;
 	}
+	public static void main(String... args) {
+		Child c = new Child(4);
+		System.out.println(c.num);
+	}
 }
